@@ -34,8 +34,8 @@ class PredictApp(HydraHeadApp):
 
         # path = r'C:\Users\hamidr.bd\Documents\Programming\Python\Jupyter\Projects\8- Dental Scanning\code\Third phase\docs'
         # my_file = path + '\home-video.mp4'
-        imagePath1 = r"C:\Users\hamidr.bd\Documents\Programming\Python\Jupyter\Projects\8- Dental Scanning\code\Third phase\docs\broken.jpg"
-        imagePath2 = r"C:\Users\hamidr.bd\Documents\Programming\Python\Jupyter\Projects\8- Dental Scanning\code\Third phase\docs\restored.jpg"
+        imagePath1 = r"docs/broken.jpg"
+        imagePath2 = r"docs/restored.jpg"
 
         image1 = Image.open(imagePath1)
         image2 = Image.open(imagePath2)
