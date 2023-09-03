@@ -42,8 +42,9 @@ class HomeApp(HydraHeadApp):
             st.markdown('<br><br>',unsafe_allow_html=True)
 
             # path = os.path.dirname(__file__)
-            path = r'C:\Users\hamidr.bd\Documents\Programming\Python\Jupyter\Projects\8- Dental Scanning\code\Third phase\docs'
-            my_file = path + '\home-video.mp4'
+            # path = r'C:\Users\hamidr.bd\Documents\Programming\Python\Jupyter\Projects\8- Dental Scanning\code\Third phase\docs'
+            # my_file = path + '\home-video.mp4'
+            my_file = r'docs/home-video.mp4'
 
             c1, c2, c3 = st.columns([2, 3, 2])
             video_file = open(my_file, 'rb')
