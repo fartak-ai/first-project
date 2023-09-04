@@ -95,7 +95,7 @@ class ProfileApp(HydraHeadApp):
                 c22.write('###')
 
                 c11.write(f'Email:  ')
-                c22.write(f'phone name:')
+                c22.write(f'phone number:')
 
                 c11.write('###')
                 c22.write('###')
